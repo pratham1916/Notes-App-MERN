@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+    background-color: black;
+    width: 20%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.nav-links{
+    color: white;
+    font-weight: 500;
+}

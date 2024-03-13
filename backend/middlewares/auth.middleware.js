@@ -16,7 +16,7 @@ const auth = (req,res,next) =>{
         })
     }
     else{
-        res.status(400).json("Login Pless");
+        res.status(400).json({msg:"You Need to Login.."});
     }
 }
 
