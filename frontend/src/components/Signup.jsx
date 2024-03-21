@@ -12,7 +12,7 @@ const Signup = () => {
       username, email, password
     };
     try {
-      const response = await axios.post("http://localhost:8080/users/register", payload);
+      const response = await axios.post("https://notes-app-backend-2b7u.onrender.com/users/register", payload);
       console.log(response.data);
     } 
     catch (error) {
